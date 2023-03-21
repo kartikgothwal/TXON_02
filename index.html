@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Iphone Calculator</title>
+   <link rel="stylesheet" href="/static/css/style.css" />
+</head>
+
+<body>
+   <div class="calculator">
+      <div class="top-container">
+         <div class="clock">
+            <span id="hours"></span>:<span id="minutes"></span>
+         </div>
+         <div class="status">
+            <img src="/static/imgs/status.png" alt="status" />
+         </div>
+      </div>
+      <div class="display">0</div>
+      <div class="button-container">
+         <div class="individual-btn-container">
+            <button class="btn first-row ac" >AC</button>
+            <button class="btn first-row pm">+/-</button>
+            <button class="btn first-row percent">%</button>
+            <button class="btn divide" id="math-ops">÷</button>
+         </div>
+         <div class="individual-btn-container">
+            <button class="btn number7">7</button>
+            <button class="btn number8">8</button>
+            <button class="btn number9">9</button>
+            <button class="btn multiply" id="math-ops">x</button>
+         </div>
+         <div class="individual-btn-container">
+            <button class="btn number4">4</button>
+            <button class="btn number5">5</button>
+            <button class="btn number6">6</button>
+            <button class="btn subtract" id="math-ops">-</button>
+            </div>
+         <div class="individual-btn-container">
+            <button class="btn number1">1</button>
+            <button class="btn number2">2</button>
+            <button class="btn number3">3</button>
+            <button class="btn addition" id="math-ops">+</button>
+         </div>
+         <div class="individual-btn-container" id="last-row">
+            <button class="btn number0">0</button>
+            <button class="btn decimal">.</button>
+            <button class="btn equal" id="math-ops">=</button>
+         </div>
+      </div>
+      <hr>
+   </div>
+</body>
+<script src="../app.js"></script>
+
+</html>

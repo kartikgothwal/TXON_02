@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+:root{
+    --white-color :  white;
+    --black-color :  rgb(0, 0, 0);
+    --white-color :  white;
+    --math-ops-color : #6dcc10;
+    --btn-background:#393030;
+}
+body {
+    margin: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Helvetica, sans-serif;
+
+}
+
+.calculator {
+    border: 2px solid rgb(230, 230, 230);
+    background-color: var(--black-color);
+    width: 600px;
+    height: 1218px;
+    border-radius: 95px;
+    padding: 20px;
+    color: var(--white-color);
+    box-sizing: border-box;
+    position: relative;
+}
+
+.top-container {
+    width: 20px;
+    padding: 20px 50px;
+    font-size: 23px;
+    display: flex;
+    gap: 291px;
+    height: 155px;
+}
+.display{
+    font-size: 100px;
+    text-align: right;
+    margin-right: 19px;
+    margin-bottom: -35px;
+    height: 200px;
+    margin-top: 29px;
+    font-family: "Poppins", sans-serif;
+    
+}
+.button-container{
+   font-size: 10px;
+    height: 53%;
+    margin: 24px 10px;
+    padding: 0 6px;
+}
+.individual-btn-container{ 
+    display: flex;
+    justify-content: 10px;
+    height: 155px;
+    justify-content: space-between;
+}
+.btn{
+    border: none;
+    height: 113px;
+    color: white;
+    width: 119px;
+    background-color: var(--btn-background);
+    border-radius: 50%;
+    font-size: 53px;
+}
+#math-ops{
+    background-color: var(--math-ops-color);
+    color: white;
+    font-size: 62px;
+}
+.first-row{
+    color: var(--black-color);
+    background: #979593;
+}
+#last-row button:first-of-type{
+    width: 249px;
+    border-radius: 71px;
+    text-align: left;
+    padding: 0 34px;
+}
+ 
+hr{
+    width: 194px;
+    position: absolute;
+    bottom: 16px;
+    left: 32%;
+    height: 6px;
+    background: var(--white-color);
+    text-align: center;
+ }
