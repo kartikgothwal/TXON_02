@@ -1,6 +1,6 @@
 # TASK_02 📱 1️⃣2️⃣3️⃣
 
-The repo for the TXON Intership Task -2 A simple iPhone calculator code-along using HTML, CSS, and Vanilla JavaScript!
+The repo for the TXON Intership Task-2 A simple iPhone calculator code-along using HTML, CSS, and Vanilla JavaScript!
 
 Symbols used in this app: ± % ÷ × − + =
 
